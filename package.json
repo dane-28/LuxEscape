@@ -17,12 +17,8 @@
   "bugs": {
     "url": "https://github.com/dane-28/LuxEscape/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/dane-28/LuxEscape#readme",
   "dependencies": {
     "express": "^4.21.2"
   }
-=======
-  "homepage": "https://github.com/dane-28/LuxEscape#readme"
->>>>>>> 7d6e39c (Add package.json for project configuration and dependencies)
 }
