@@ -76,7 +76,7 @@ section {
 
 /* Footer Styling */
 footer {
-    background-color: #0d253f;
+    background-color: #000000;
     color: #fff;
     padding: 30px 0; /* More space for better balance */
     text-align: center;
@@ -123,7 +123,7 @@ footer a:hover {
 
 /* About Section */
 .about-section {
-    background-color: #f1f1f1;
+    background-color: #bfeff9;
     padding: 80px 20px; /* More padding for balance */
     text-align: center;
 }
@@ -143,7 +143,7 @@ footer a:hover {
 
 /* Team Section */
 .team-section {
-    background-color: #e0e0e0;
+    background-color: #b4d5ee;
     padding: 80px 20px; /* More space for balance */
     text-align: center;
 }
@@ -154,7 +154,7 @@ footer a:hover {
     color: #333;
 }
 .team-member {
-    background-color: #fff;
+    background-color: #bfeff9 ;
     border-radius: 8px;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -187,7 +187,7 @@ footer a:hover {
 /* New styles for services.html */
 .services-page {
     background-color: #e3f2fd;
-    color: #2b3d4f;
+    color: #052149);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -196,13 +196,13 @@ footer a:hover {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background-color: #294a98;
+    background-color: #90caf9;
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #052149;
 }
 
 .hero p {
