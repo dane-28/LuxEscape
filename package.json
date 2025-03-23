@@ -2,7 +2,7 @@
   "name": "week5-danielle",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -21,5 +21,5 @@
   "dependencies": {
     "express": "^4.21.2"
   }
-  
 }
+  
