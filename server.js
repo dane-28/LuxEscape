@@ -1,12 +1,14 @@
-const express = require('express');
-const app = express();
- 
-// Define a basic route
-app.get('/', (req, res) => {
-    res.send('Hello, Express Server!');
+const express = require("express"); 
+const app = express(); 
+const PORT = process.env.PORT || 3000; 
+
+// Serve static files (like index.html, CSS, images)
+app.use(express.static(__dirname)); 
+
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/index.html");
 });
- 
-// Start the server
-app.listen(3000, () => {
-    console.log('Server is running on http://localhost:3000');
+
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
 });
